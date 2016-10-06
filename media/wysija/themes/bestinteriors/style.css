@@ -1,0 +1,54 @@
+/*
+Theme Name: Best Interiors
+Description: Interior designed styled.
+Author: Studio Corpus
+Author URI: http://www.studiocorpus.com/
+Author Email: themes@wysija.com
+Tags: orange, white
+
+Note: the styles below offer all the possibilities of Wysija. The plugin won't recognize any additional styles if you add them.
+
+*/
+html {
+    background-color: #ffffff; /* cannot be transparent and will default to white */
+}
+
+header {
+    background-color: #ffffff; /* can be transparent */
+}
+body {
+    color:#000000;
+    font-family: "Times";
+    font-size: 16px;
+    background-color: #ffffff; /* can be transparent */
+}
+footer {
+    background-color: #ff9803; /* can be transparent */
+}
+h1 {
+    color: #000000;
+    font-family: "Times";
+    font-size: 30px;
+}
+h2 {
+    color: #000000;
+    font-family: "Times";
+    font-size: 20px;
+}
+h3 {
+    color: #000000;
+    font-family: "Times";
+    font-size: 18px;
+}
+a {
+    color: #ff9803;
+    text-decoration: none;
+}
+unsubscribe {
+    color:#000000;
+}
+viewbrowser {
+	font-family:'Arial';
+	font-size:12px;
+	color:#4a4b4b;
+}

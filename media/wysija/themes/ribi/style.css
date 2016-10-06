@@ -1,0 +1,44 @@
+/*
+Theme Name: General 
+Description: All purpose newsletter
+Author: HROC
+
+*/
+html {
+    background-color: #fff; /* cannot be transparent and will default to white */
+}
+
+header {
+    background-color: transparent; /* can be transparent */
+}
+body {
+    color:#787978;
+    font-family: "Arial";
+    font-size: 12px;
+    background-color: #ffffff; /* can be transparent */
+}
+footer {
+    background-color: transparent; /* can be transparent */
+}
+h1 {
+    color: #febd11;
+    font-family: "Arial";
+    font-size: 36px;
+}
+h2 {
+    color: #005dab;
+    font-family: "Arial";
+    font-size: 30px;
+}
+h3 {
+    color: #005dab;
+    font-family: "Arial";
+    font-size: 24px;
+}
+a {
+    color: #005dab;
+    text-decoration:underline;
+}
+unsubscribe {
+    color:#000000;
+}

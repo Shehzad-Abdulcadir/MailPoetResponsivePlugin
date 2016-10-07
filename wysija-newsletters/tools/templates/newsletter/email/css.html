@@ -40,14 +40,14 @@
         outline:none;
         text-decoration:none;
         -ms-interpolation-mode: bicubic;
-        height: auto !important; 
+        /*height: auto !important; */
         width: auto !important; 
         max-width: 100% !important;
         margin: 0 auto;
 
     }
     a img {border:none;}
-    .image_fix {/*display:block;*/ height: auto !important; width: auto !important; max-width: 100% !important;}
+    .image_fix {/*display:block;*/ /*height: auto !important;*/ width: auto !important; max-width: 100% !important;}
 
     .wysija_image_link {
     	height: auto !important; width: auto !important; max-width: 100% !important;
@@ -67,6 +67,13 @@
 
     .hroc-custom {
     	margin-bottom: 20px;
+    }
+
+
+    /*Header fix - Targets alt text, change if needed*/
+
+    img[alt~="Rotary"]  {
+        height: auto !important;
     }
 
     /* Fix width 100% on >700px*/
@@ -89,6 +96,7 @@
 		.hroc-custom .wysija_image_container{
 			padding: 0 !important;
 			padding-bottom: 10px !important;
+            height: auto !important;
 		}
 
 		.hroc-custom div {
@@ -99,9 +107,21 @@
 		}
 
 		#wysija_wrapper {
-				max-width: 600px;
-				width: 100%;
-			}
+			max-width: 600px;
+			width: 100%;
+		}
+
+        .wysija_gallery_table img {
+            height: auto !important;
+        }
+
+        .wysija_gallery_table .wysija_cell_container {
+            height: auto !important;
+        }
+
+        .right div img {
+            height: auto !important;
+        }
     }
 
     /* Yahoo paragraph fix

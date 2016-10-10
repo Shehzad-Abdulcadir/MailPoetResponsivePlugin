@@ -3,7 +3,7 @@
     /* Client-specific Styles */
     body {
         width:100% !important;
-        max-width: 600px !important;
+        /*max-width: 600px !important;*/
         -webkit-text-size-adjust:100%;
         -ms-text-size-adjust:100%;
         margin:0;
@@ -49,8 +49,14 @@
     a img {border:none;}
     .image_fix {/*display:block;*/ /*height: auto !important;*/ width: auto !important; max-width: 100% !important;}
 
-    .wysija_image_link {
+/*    .wysija_image_link {
     	height: auto !important; width: auto !important; max-width: 100% !important;
+    }*/
+
+    .wysija_image_link {
+        height: auto !important;
+        width: auto !important;
+        margin: 0 auto !important;
     }
 
     .wysija_header img {
@@ -65,8 +71,16 @@
     	height: auto !important; width: auto !important; max-width: 100% !important padding: 0 !important;
     }
 
-    .hroc-custom {
+/*    .hroc-custom {
     	margin-bottom: 20px;
+    }*/
+
+    .wysija_gallery_table img {
+        height: auto !important;
+    }
+
+    .wysija_gallery_table .wysija_cell_container {
+        height: auto !important;
     }
 
 
@@ -87,10 +101,11 @@
 
     /* Responsive Media Queries */
 
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 600px) {
 		.hroc-custom{
 			width: 100% !important;
-			margin-bottom: 20px;
+			/*margin-bottom: 20px;*/
+            clear: both !important;
 		}
 
 		.hroc-custom .wysija_image_container{
@@ -121,6 +136,11 @@
 
         .right div img {
             height: auto !important;
+        }
+
+        h2 {
+            clear: both !important;
+            width: 100% !important;
         }
     }
 
